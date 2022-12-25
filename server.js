@@ -14,7 +14,7 @@ server.use(auth);
 server.use((req, res, next) => {
     if (req.path !== '/') router.db.setState(clone(data))
     next()
-}
+});
 server.use(router)
 server.listen(3000, () => {
     console.log('JSON Server is running')
