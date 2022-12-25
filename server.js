@@ -1,6 +1,5 @@
 // See https://github.com/typicode/json-server#module
 const cors = require('cors');
-const clone = require('clone');
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const auth = require("json-server-auth");
@@ -11,10 +10,6 @@ server.use(cors())
 server.use(middlewares)
 server.db = router.db;
 server.use(auth);
-server.use((req, res, next) => {
-    if (req.path !== '/') router.db.setState(clone(db))
-    next()
-});
 server.use(router)
 server.listen(3000, () => {
     console.log('JSON Server is running')
