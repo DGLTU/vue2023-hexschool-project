@@ -12,7 +12,7 @@ server.use(middlewares)
 server.db = router.db;
 server.use(auth);
 server.use((req, res, next) => {
-    if (req.path !== '/') router.db.setState(clone(data))
+    if (req.path !== '/') router.db.setState(clone(db))
     next()
 });
 server.use(router)
