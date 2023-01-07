@@ -2,30 +2,143 @@
   "users": [
     {
       "email": "admin@gmail.com",
-      "password": "$2a$10$oZTcmA0fZWIL0LJ/YF7uqO9fioVw2JE2zv0as1vX/H5PrkANJoz0O",
+      "password": "$2a$10$UkBOPcgs48UnQgOikHYCauW5COfm2cdGChV.QGLoo4PYh8wOgmnP2",
+      "role": "admin",
       "id": 1
     },
     {
       "email": "test1@gmail.com",
-      "password": "$2a$10$PiCM1iKdfLyiQ6Sbp02QYu7nuMTip4v8CV8Hb5La1zyP8L6G1rfam",
+      "password": "$2a$10$yda3VjWO7qob5UWk5VLrE.xk8HueGOLU1zRRrJ.f.gO/EAcfIohP6",
       "id": 2
     }
   ],
-  "posts": [
+  "movies": [
+    {
+      "id": 0,
+      "title": "生之欲",
+      "title-english": "Living",
+      "category": "劇情片",
+      "description": "改編自黑澤明<<生之欲>>50年代的倫敦，一個戰後重建英格蘭官僚機構的小齒輪-威廉，在無盡的文書工作中，得知自己已患上絕症。因此決定在不多的時日為自己灰色單調的人生中尋回些色彩。他嘗試過縱情聲色，卻食之無味。後來因為一段新的友誼，他明白了迄今為止他所忽略的事情— Life 和 Living真正的意義為何?他決定利用他多年的經驗及智慧，為貧民窟的兒童們奉獻。",
+      "storyline": "",
+      "grade": "輔",
+      "IMDb-score": 7.6,
+      "director": "奧利弗·赫曼紐斯",
+      "actors": [
+        "比爾奈伊",
+        "艾咪．盧．伍德",
+        "亞歷克斯．夏普"
+      ],
+      "release-date": "2022/11/4",
+      "length": {
+        "hours": 1,
+        "min": 42
+      },
+      "poster": "https://mulderville.net/images/SortiesCinema/Living/Living_000FR.jpg",
+      "pictureUrls": [
+        "https://mulderville.net/images/SortiesCinema/Living/Living_001.jpg"
+      ]
+    },
     {
       "id": 1,
-      "title": "json-server22",
-      "author": "typicode"
+      "title": "老爸愛轉彎",
+      "title-english": "An Almost Ordinary Summer",
+      "category": "喜劇片",
+      "description": "陽光又帥氣的漁夫暖爸帶著家人到海景民宿避暑，鄰居看起來是個高級藝品經銷商一家。互看不順眼的兩家人打算各自爽玩一波，沒料到是雙方老爸們的出櫃計畫。兩方的兒子與女兒無法承受老爸掰彎加閃婚的驚嚇，決定聯手搞事！",
+      "storyline": "你喜歡誰，我就喜歡誰!",
+      "grade": "護",
+      "IMDb-score": 6.2,
+      "director": "西蒙加德諾",
+      "actors": [
+        "Fabrizio Bentivoglio",
+        "Alessandro Gassmann",
+        "Jasmine Trinca",
+        "Filippo Scicchitano"
+      ],
+      "release-date": "2019",
+      "length": {
+        "hours": 1,
+        "min": 40
+      },
+      "poster": "https://www.themoviedb.org/t/p/original/sOMlD3Th68hm3ixh8w6ZP2AooFs.jpg",
+      "pictureUrls": [
+        "https://eigajoho.com/wp-content/uploads/2022/12/%E6%B3%A3%E3%81%84%E3%81%9F%E3%82%8A%E7%AC%91%E3%81%A3%E3%81%9F%E3%82%8A-1000x576.jpg"
+      ]
     }
   ],
-  "comments": [
+  "showtimeList": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "date": 1672588801,
+      "startAt": {
+        "hour": 11,
+        "second": 0
+      },
+      "booked": [],
+      "movieId": 0
+    },
+    {
+      "date": 1672588801,
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": [],
+      "movieId": 1
+    },
+    {
+      "date": 1672675201,
+      "startAt": {
+        "hour": 19,
+        "second": 0
+      },
+      "booked": [],
+      "movieId": 0
+    },
+    {
+      "date": 1672675201,
+      "startAt": {
+        "hour": 14,
+        "second": 0
+      },
+      "booked": [],
+      "movieId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "cinemas": [
+    {
+      "id": 0,
+      "cinemaTitle": "regular",
+      "seats": [
+        {
+          "id": "1A"
+        },
+        {
+          "id": "2A"
+        },
+        {
+          "id": "3A"
+        },
+        {
+          "id": "4A"
+        },
+        {
+          "id": "5A"
+        },
+        {
+          "id": "6A"
+        },
+        {
+          "id": "7A"
+        },
+        {
+          "id": "8A"
+        }
+      ],
+      "priceList": {
+        "regular-price": 300,
+        "concession-price": 250,
+        "senior-price": 200
+      }
+    }
+  ],
+  "articles": []
 }
