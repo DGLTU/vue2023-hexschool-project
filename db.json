@@ -67,7 +67,8 @@
   ],
   "showtimeList": [
     {
-      "date": 1672588801,
+      "id": "0",
+      "date": "2023/1/19",
       "startAt": {
         "hour": 11,
         "second": 0
@@ -76,7 +77,8 @@
       "movieId": 0
     },
     {
-      "date": 1672588801,
+      "id": "1",
+      "date": "2023/1/19",
       "startAt": {
         "hour": 14,
         "second": 0
@@ -85,7 +87,8 @@
       "movieId": 1
     },
     {
-      "date": 1672675201,
+      "id": "2",
+      "date": "2023/1/20",
       "startAt": {
         "hour": 19,
         "second": 0
@@ -94,7 +97,8 @@
       "movieId": 0
     },
     {
-      "date": 1672675201,
+      "id": "3",
+      "date": "2023/1/20",
       "startAt": {
         "hour": 14,
         "second": 0
